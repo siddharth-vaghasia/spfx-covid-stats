@@ -15,7 +15,7 @@ export class ServiceProvider {
     private httpClientOptionsForGlobal: IHttpClientOptions = {
         headers: new Headers({
             "x-rapidapi-host": "covid-19-data.p.rapidapi.com",
-            "x-rapidapi-key": "a112a52b3cmsh46d30d4c18d206cp1b20b6jsn388bcdd35315"
+            "x-rapidapi-key": "xxxxx"
         }),
         method: "GET",
         mode: "cors"
@@ -24,7 +24,7 @@ export class ServiceProvider {
   private httpClientOptionsForCounty: IHttpClientOptions = {
     headers: new Headers({
         "x-rapidapi-host": "covid-193.p.rapidapi.com",
-        "x-rapidapi-key": "a112a52b3cmsh46d30d4c18d206cp1b20b6jsn388bcdd35315"
+        "x-rapidapi-key": "xxxxxxx"
     }),
     method: "GET",
     mode: "cors"
