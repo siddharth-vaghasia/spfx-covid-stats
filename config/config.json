@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "covid-stats-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/covidStats/CovidStatsWebPart.js",
+          "manifest": "./src/webparts/covidStats/CovidStatsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CovidStatsWebPartStrings": "lib/webparts/covidStats/loc/{locale}.js"
+  }
+}
